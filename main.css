@@ -15,6 +15,7 @@ p
 section img
 {
     max-width: 600px;
+    box-shadow: 10px 10px 20px #bbb;
 }
 
 #header
@@ -36,15 +37,42 @@ section img
     color: white;
     /* background: #b95d35; */
     background: url("images/black-50.png");
-    border: 2px solid #3f190a;
+    border: 3px solid #6e2c12;
     padding: 30px;
 }
 
 #navigation
 {
-    min-height: 3rem;
-    background: linear-gradient(#3d3d3d, #3d3d3d);
-    border-bottom: 1px solid #222;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 3.5rem;
+    background: linear-gradient(#353535, #2c2c2c);
+    border-bottom: 2px solid black;
+}
+
+#navigation .navbutton
+{
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+#navigation .selected
+{
+
+}
+
+#navigation .navbutton:hover
+{
+    background: #4f4f4f;
+}
+
+#navigation .navbutton:active
+{
+    background: #444;
 }
 
 section
