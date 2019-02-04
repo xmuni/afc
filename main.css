@@ -158,3 +158,17 @@ section:nth-child(even) {
 #gallery-grid {
     display: grid;
 }
+
+.pano-container
+{
+	width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+	margin: auto;
+	/*background: gray;*/
+	/* border: 1px solid #aaa; */
+}
+
+.pano-container iframe {
+    position: absolute;
+}
