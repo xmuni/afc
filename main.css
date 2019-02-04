@@ -59,7 +59,7 @@ section img {
 }
 
 #navigation .selected {
-    color: #333;
+    color: #111;
     background: #eee;
     border-bottom: 1px solid #bbb;
 }
@@ -72,12 +72,12 @@ section img {
     background: #444;
 }
 
-#navigation .navbutton .selected:hover {
-    color: #222;
+#navigation .selected:hover {
+    color: #111;
     background: #fff;
 }
 
-#navigation .navbutton .selected:active {
+#navigation .selected:active {
     color: black;
     background: #eee;
 }
