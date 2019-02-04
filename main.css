@@ -15,7 +15,7 @@ p {
     line-height: 1.5rem;
 }
 
-section img {
+.shadow img {
     max-width: 600px;
     box-shadow: 10px 10px 20px #bbb;
 }
@@ -28,7 +28,8 @@ section img {
     background: url("images/header-bg-sw.jpg");
     background-size: cover;
     background-position: bottom;
-    border-bottom: 1px solid #8d4e33;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #9b6c53;
 }
 
 #headertitle h2 {
@@ -94,8 +95,8 @@ section img {
 }
 
 section {
-    min-height: 5vh;
-    display: flex;
+    /* min-height: 5vh; */
+    /* display: flex; */
 }
 
 section:nth-child(even) {
@@ -104,28 +105,56 @@ section:nth-child(even) {
     border-bottom: 1px solid #e4e4e4;
 }
 
-.topgradient
-{
+.topgradient {
     position: absolute;
-    width: 30px;
-    background: #555;
+    width: 100%;
+    height: 3vh;
+    background: linear-gradient(black, white);
+    opacity: 0.05;
 }
 
 .sectioncontent {
     max-width: 1400px;
-    margin: 10vh auto;
+    margin: 8vh auto;
     padding: 0 30px;
 }
 
-#one {
+#home-1 {
     display: grid;
     grid-gap: 100px;
     grid-template-columns: 1fr 1fr;
 }
 
-#two {
+#home-2 {
     display: grid;
     grid-gap: 100px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+#home-2 img
+{
+    max-width: 600px;
+}
+
+#logogrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#logogrid img {
+    width: 180px;
+}
+
+#gallery-grid {
+    display: grid;
 }
