@@ -25,7 +25,7 @@ section img {
     display: flex;
     align-content: center;
     /* background: linear-gradient(#ec7727, #e37342); */
-    background: url("images/header-bg.jpg");
+    background: url("images/header-bg-s.jpg");
     background-size: cover;
     background-position: bottom;
     border-bottom: 1px solid #d66a3c;
