@@ -1,5 +1,4 @@
-body
-{
+body {
     font-family: arial;
     font-size: 1.1rem;
     color: #333;
@@ -7,19 +6,21 @@ body
     padding: 0;
 }
 
-p
-{
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+p {
     line-height: 1.5rem;
 }
 
-section img
-{
+section img {
     max-width: 600px;
     box-shadow: 10px 10px 20px #bbb;
 }
 
-#header
-{
+#header {
     height: 25vh;
     display: flex;
     align-content: center;
@@ -30,80 +31,81 @@ section img
     border-bottom: 1px solid #d66a3c;
 }
 
-#headertitle
-{
+#headertitle {
     font-size: 3rem;
     margin: auto;
     color: white;
     /* background: #b95d35; */
-    background: url("images/black-50.png");
-    border: 3px solid #6e2c12;
-    padding: 30px;
+    background: url("images/black-30.png");
+    border: 2px solid #0000002f;
+    padding: 1.5rem 3rem;
 }
 
-#navigation
-{
+#navigation {
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
-    min-height: 3.5rem;
+    /* min-height: 3.5rem; */
     background: linear-gradient(#353535, #2c2c2c);
-    border-bottom: 2px solid black;
+    box-sizing: border-box;
 }
 
-#navigation .navbutton
-{
-    cursor: pointer;
+#navigation .navbutton {
     color: white;
     font-size: 1.5rem;
     padding: 1rem 2rem;
+    box-sizing: border-box;
 }
 
-#navigation .selected
-{
-
+#navigation .selected {
+    color: #333;
+    background: #eee;
+    border-bottom: 1px solid #bbb;
 }
 
-#navigation .navbutton:hover
-{
+#navigation .navbutton:hover {
     background: #4f4f4f;
 }
 
-#navigation .navbutton:active
-{
+#navigation .navbutton:active {
     background: #444;
 }
 
-section
-{
+#navigation .navbutton .selected:hover {
+    color: #222;
+    background: #fff;
+}
+
+#navigation .navbutton .selected:active {
+    color: black;
+    background: #eee;
+}
+
+section {
     min-height: 25vh;
     display: flex;
 }
 
-section:nth-child(even)
-{
+section:nth-child(even) {
     background: rgb(240,240,240);
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e4e4e4;
 }
 
-.sectioncontent
-{
+.sectioncontent {
     max-width: 1400px;
     margin: 10vh auto;
     padding: 0 30px;
 }
 
-#one
-{
+#one {
     display: grid;
     grid-gap: 100px;
     grid-template-columns: 1fr 1fr;
 }
 
-#two
-{
+#two {
     display: grid;
     grid-gap: 100px;
     grid-template-columns: 1fr 1fr;
