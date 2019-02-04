@@ -94,7 +94,7 @@ section:nth-child(even) {
 }
 
 .sectioncontent {
-    width: 80%;
+    max-width: 1400px;
     margin: 10vh auto;
     padding: 0 30px;
 }
