@@ -22,7 +22,7 @@
                 <option value="../it/{{ name }}.html" {% if language == 'it' %}selected="selected"{% endif %}>Italiano</option>
             </select>
         </div>
-        <a href="{{ language }}/index" id="header-text">
+        <a href="../{{ language }}" id="header-text">
             <div id="header-title"><div class="hc1">ANTICA FORNACE </div><div class="hc2">CARRARO</div></div>
             <div id="header-subtitle" class="hc3">Piove di Sacco – Padova</div>
         </a>
@@ -34,7 +34,7 @@
                 {{ navbutton_home }}</a>
             <a href="../{{ language }}/gallery.html" class="navbutton {% if select_gallery %}nav-selected{% endif %}">
                 {{ navbutton_gallery }}</a>
-            <a href="../{{ language }}/catalog.html" class="navbutton {% if select_catalog %}nav-selected{% endif %}">
+            <a href="../{{ language }}/catalogue.html" class="navbutton {% if select_catalog %}nav-selected{% endif %}">
                 {{ navbutton_catalog }}</a>
             <a href="../{{ language }}/about.html" class="navbutton {% if select_about %}nav-selected{% endif %}">
                 {{ navbutton_about }}</a>

@@ -41,7 +41,7 @@ replacements_en_home = {
     'bodytext': 'Body text goes here',
     'navbutton_home': "Home",
     'navbutton_gallery': "Gallery",
-    'navbutton_catalog': "Catalog",
+    'navbutton_catalog': "Catalogue",
     'navbutton_about': "About",
     'intro_heading': 'AFC description',
     'intro_paragraph': 'Antica Fornace Carraro is an authentic bulwark of the craftsmanship of Rainforest, continuing to produce uninterruptedly since the nineteenth century terracotta of the highest quality. The realization still takes place according to ancient production techniques, using only local clay and respecting the slow pace of production. The clays used are collected in the surrounding areas and the bricks produced are dried throughout the summer in the open-air farmyards. In autumn, however, the bricks are baked in the old nineteenth-century Hoffmann oven, the real heart of the complex. The final product stands out in the world for its undisputed quality, thus keeping alive the centuries-old knowledge of brick production.',
