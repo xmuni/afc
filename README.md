@@ -1,3 +1,1 @@
-# Antica Fornace Carraro
-
-https://xmuni.github.io/afc
+https://xmuni.github.io/afc/
