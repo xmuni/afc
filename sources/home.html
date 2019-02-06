@@ -1,5 +1,29 @@
 {% extends 'layout.html' %}
 
 {% block main %}
-    <p>This content inside "#main" is from home.html</p>
+    <section>
+        <div id="home-intro" class="limit-width">
+            <img src="images/intro.jpg">
+            <div>
+                <h3>Fornace description</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </section>
+    <section id="home-pano">
+        <div class="pano-container">
+            <iframe id="embed" width="100%" height="100%" frameborder="0" allow="vr,gyroscope,accelerometer,fullscreen" scrolling="no" allowfullscreen="true" src="https://kuula.co/share/7YHFv?fs=1&vr=0&thumbs=1&chromeless=0&logo=0"></iframe>
+        </div>
+    </section>
+    <section>
+        <div id="" class="limit-width">
+            Third section
+        </div>
+    </section>
+
 {% endblock %}

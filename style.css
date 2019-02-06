@@ -1,5 +1,5 @@
 body {
-    font-family: arial;
+    font-family: "Open Sans", "arial";
     font-size: 1rem;
     color: #333;
     margin: 0;
@@ -36,7 +36,7 @@ p, h1, h2, h3 {
     min-height: 20vh;
     padding: 2vh 0;
     width: 100%;
-    background: url("../images/header-fixed-short.jpg");
+    background: url("images/header-fixed-short.jpg");
     background-size: cover;
     background-position: bottom;
 
@@ -46,7 +46,7 @@ p, h1, h2, h3 {
 }
 
 #header-text {
-    font-family: "lato";
+    font-family: "cardo", "lato";
     text-align: center;
     line-height: 3rem;
     padding: 15px 10px 0px 10px;
@@ -123,7 +123,7 @@ p, h1, h2, h3 {
 }
 
 section {
-    min-height: 30vh; /* Remove later */
+    min-height: 20vh; /* Remove later */
     padding: 7vh 10px;
 }
 
@@ -136,6 +136,10 @@ section:nth-child(odd) {
 section .limit-width {
     max-width: 1000px;
     margin: auto;
+}
+
+section .span-width {
+    width: 100%;
 }
 
 section #home-intro {
@@ -151,6 +155,40 @@ section img {
 
 section h3 {
     color: #cc6d01;
+}
+
+#home-pano {
+    width: 100%;
+    height: 70vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.pano-container
+{
+	width: 100%;
+    position: relative;
+    padding-bottom: 70vh;
+	margin: auto;
+    box-shadow: 0px 0px 80px #ccc;
+	/*background: gray;*/
+	border: 1px solid #ccc;
+}
+
+.pano-container iframe {
+    position: absolute;
+}
+
+#footer {
+    width: 100%;
+    background: #333;
+    min-height: 200px;
+    color: #ddd;
+    padding: 30px 0px;
+    border-top: 1px solid black;
+
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
