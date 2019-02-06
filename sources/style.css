@@ -1,0 +1,160 @@
+body {
+    font-family: arial;
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: #eee;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+p, h1, h2, h3 {
+    margin-top: 0px;
+    line-height: 1.4rem;
+}
+
+#languages {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+}
+
+#languages select {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.6rem;
+}
+
+#header-container
+{
+    min-height: 20vh;
+    padding: 2vh 0;
+    width: 100%;
+    background: url("../images/header-fixed-short.jpg");
+    background-size: cover;
+    background-position: bottom;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-text {
+    font-family: "lato";
+    text-align: center;
+    line-height: 3rem;
+    padding: 15px 10px 0px 10px;
+}
+
+#header-title {
+    font-size: 3rem;
+}
+
+#header-subtitle {
+    font-size: 1.3rem;
+}
+
+.hc1 {
+    color: #543306;
+    display: inline;
+}
+
+.hc2 {
+    color: #955002;
+    display: inline;
+}
+
+.hc3 {
+    color: #333;
+}
+
+#navigation {
+    min-height: 1rem;
+    background: #222;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#navbutton-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.navbutton {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    color: #ccc;
+}
+
+.navbutton:hover {
+    color: white;
+    background: #333;
+    /* border-left: 1px solid #444;
+    border-right: 1px solid #444;
+    box-sizing: border-box; */
+}
+
+.navbutton:active {
+    color: #ccc;
+    background: #333;
+}
+
+.nav-selected {
+    color: orange;
+    /*color: #cc6d01;*/
+    /*border-bottom: 4px solid #cc6d01;*/
+    /*padding-bottom: 16px;*/
+    /*font-weight: bold;*/
+}
+
+.nav-selected:hover {
+    color: orange;
+}
+
+section {
+    min-height: 30vh; /* Remove later */
+    padding: 7vh 10px;
+}
+
+section:nth-child(odd) {
+    background: #e4e4e4;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+section .limit-width {
+    max-width: 1000px;
+    margin: auto;
+}
+
+section #home-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px;
+}
+
+section img {
+    width: 100%;
+    box-shadow: 0px 0px 50px #bbb;
+}
+
+section h3 {
+    color: #cc6d01;
+}
+
+@media screen and (max-width: 600px) {
+    #navbutton-container {
+        width: 100%;
+    }
+}
