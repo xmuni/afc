@@ -17,12 +17,12 @@
 
     <div id="header-container">
         <div id="languages">
-            <select id="language-select" onchange="location = this.value">
+            <select id="language-select" onchange="javascript:location.href = this.value;">
                 <option value="en/{{ name }}" {% if language == 'en' %}selected="selected"{% endif %}>English</option>
                 <option value="it/{{ name }}" {% if language == 'it' %}selected="selected"{% endif %}>Italiano</option>
             </select>
         </div>
-        <a href="#" id="header-text">
+        <a href="{{ language }}/index" id="header-text">
             <div id="header-title"><div class="hc1">ANTICA FORNACE </div><div class="hc2">CARRARO</div></div>
             <div id="header-subtitle" class="hc3">Piove di Sacco – Padova</div>
         </a>
