@@ -1,1 +1,1 @@
-https://xmuni.github.io/afc/
+https://xmuni.github.io/afc/it/index.html
